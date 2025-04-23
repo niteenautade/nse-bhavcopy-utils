@@ -1,4 +1,4 @@
-# **NSE Bhavdata Utils**
+# **NSE Bhavcopy Utils**
 
 This Node.js package fetches **bhavdata** (stock market data) from the **National Stock Exchange of India (NSE)** for a given date, parses the CSV file, and converts it into a structured **JSON format**.
 
