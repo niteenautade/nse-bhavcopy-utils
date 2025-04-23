@@ -86,11 +86,3 @@ Fetches bhavdata for the given date and returns the data as an array of JSON obj
 
 - `csv-parser`: For parsing CSV data.
 - `stream`: Native Node.js module to handle streams.
-
-## **License**
-
-MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-This README gives users clear instructions on how to install, use, and understand the functionality of your library. You can add more details based on features you want to highlight (like handling errors, advanced use cases, etc.). Let me know if you'd like any changes!
