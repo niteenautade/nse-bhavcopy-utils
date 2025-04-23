@@ -28,7 +28,7 @@ npm install nse-bhavcopy-utils
 ### **Import the module:**
 
 ```javascript
-const { fetchBhavdataByDate } = require('nse-bhavdata-fetcher');
+const { fetchBhavcopyByDate } = require('nse-bhavdata-utils');
 ```
 
 ### **Fetch Bhavdata by Date**
@@ -36,11 +36,11 @@ const { fetchBhavdataByDate } = require('nse-bhavdata-fetcher');
 You can pass a `Date` object or a `string` representing the date (in any valid format supported by JavaScript `Date`) to fetch bhavdata for that date.
 
 ```javascript
-const { fetchBhavdataByDate } = require('nse-bhavdata-fetcher');
+const { fetchBhavcopyByDate } = require('nse-bhavdata-fetcher');
 
 async function getBhavdata() {
     const date = '2025-04-21'; // You can pass any date in string format or Date object
-    const data = await fetchBhavdataByDate(date);
+    const data = await fetchBhavcopyByDate(date);
     console.log(data); // Array of JSON objects with bhavdata
 }
 
@@ -77,7 +77,7 @@ getBhavdata();
 
 ## **API**
 
-### `fetchBhavdataByDate(date: string | Date): Promise<Object[]>`
+### `fetchBhavcopyByDate(date: string | Date): Promise<Object[]>`
 
 Fetches bhavdata for the given date and returns the data as an array of JSON objects.
 
