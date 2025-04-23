@@ -1,3 +1,3 @@
-const { fetchBhavdataByDate } = require('./lib/fetchBhavdata')
+const { fetchBhavcopyByDate } = require('./lib/fetchBhavcopy')
 
-module.exports.fetchBhavdataByDate = fetchBhavdataByDate
+module.exports.fetchBhavcopyByDate = fetchBhavcopyByDate
