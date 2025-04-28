@@ -16,5 +16,8 @@
     "nse",
     "bhavcopy",
     "stock price data"
-  ]
+  ],
+  "dependencies": {
+    "csv-parser": "^3.2.0"
+  }
 }
