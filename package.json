@@ -1,6 +1,6 @@
 {
   "name": "nse-bhavcopy-utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This packages provides tools to fetch bhavcopy data from NSE India and converts it from CSV to JSON. Useful for financial data analysis, automation, and stock market tools.",
   "main": "index.js",
   "scripts": {
