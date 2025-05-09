@@ -58,14 +58,14 @@ getBhavdata();
     "SYMBOL": "INFY",
     "OPEN": 1200.5,
     "CLOSE": 1215.75,
-    "DATE": "2025-04-21",
+    "TRADE_DATE": "2025-04-21",
     ...
   },
   {
     "SYMBOL": "TCS",
     "OPEN": 2800.5,
     "CLOSE": 2830.75,
-    "DATE": "2025-04-21",
+    "TRADE_DATE": "2025-04-21",
     ...
   }
 ]
